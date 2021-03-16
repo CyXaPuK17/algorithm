@@ -4,7 +4,8 @@ const {
     insertionSort,
     selectionSort
 } = require('./sortrings');
+const {binarySearch} = require('./search');
 
-const array = selectionSort(getArrayOfInt(15, 50));
+const array = binarySearch(getArrayOfInt(15, 10), 5);
 
 console.log(array);
